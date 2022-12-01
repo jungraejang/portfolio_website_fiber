@@ -4,6 +4,36 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "BebasNeue";
+  src: local("BebasNeue"),
+   url("./fonts//BebasNeue/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: bold ;
+  }
+
+
+@font-face {
+  font-family: "Anton";
+  src: local("Anton"),
+   url("./fonts//Anton//Anton-Regular.ttf") format("truetype");
+  font-weight: bold ;
+  }
+
+  
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+   url("./fonts//Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: bold ;
+  }
+
+  @font-face {
+    font-family: "BigShoulders";
+    src: local("BigShoulders"),
+     url("./fonts//BigShoulders/BigShouldersText-Regular.ttf") format("truetype");
+    font-weight: bold ;
+    }
+
 html,
 body,
 #root {
@@ -19,8 +49,10 @@ body {
   color: white;
   /* background: #9EFF00; */
   background: rgb(212,255,0);
-  background: linear-gradient(0deg, rgba(212,255,0,1) 15%, rgba(2,9,31,1) 79%);
+  background: linear-gradient(0deg, rgba(212,255,0,1) 15%, rgba(237,239,247,1) 79%);
 }
+
+
 
 .fullscreen {
   position: absolute;
@@ -65,3 +97,22 @@ a:hover {
   text-decoration: underline;
   color: inherit;
 }
+
+.font-face-bn {
+  font-family: "BebasNeue";
+ }
+
+ .font-face-an {
+  font-family: "Anton";
+ }
+
+ .font-face-ro {
+  font-family: "Roboto";
+ }
+
+ .font-face-bs {
+  font-family: "BigShoulders";
+ }
+ .text-shadow {
+  text-shadow: 3px 2px 2px rgba(0,0,0,1);
+ }

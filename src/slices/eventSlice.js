@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   scrollPosition: 0,
+  appReady: false,
 }
 
 export const eventSlice = createSlice({
@@ -11,10 +12,13 @@ export const eventSlice = createSlice({
     setScrollPosition: (state, action) => {
       state.scrollPosition = action.payload
     },
+    setAppReady: (state, action) => {
+      state.appReady = action.payload
+    },
   },
 })
 
-export const { setScrollPosition } = eventSlice.actions
+export const { setScrollPosition, setAppReady } = eventSlice.actions
 
 export const selectScrollPosition = state => state.event.scrollPosition
 

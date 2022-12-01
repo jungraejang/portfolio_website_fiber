@@ -1,7 +1,6 @@
 import React from 'react'
-import Paper from '@mui/material/Paper'
 
-function About() {
+function Skills() {
   return (
     <div
       style={{
@@ -19,27 +18,23 @@ function About() {
       <div>
         {' '}
         <h1 className="font-face-bs " style={{ color: '#000', textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
-          QUI SUIS-JE?
+          SKILLS
         </h1>
       </div>
       {/* <div style={{ display: ' flex', flexDirection: 'row' }}>
-        <h6 style={{ color: '#3200FC' }} className="text-shadow">
-          Name:{' '}
-        </h6>
-        <h4 style={{ marginLeft: 20 }}>Jung Rae Jang</h4>
-      </div> */}
+      <h6 style={{ color: '#3200FC' }} className="text-shadow">
+        Name:{' '}
+      </h6>
+      <h4 style={{ marginLeft: 20 }}>Jung Rae Jang</h4>
+    </div> */}
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'center' }}>
         <h5 style={{ fontSize: 16, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          I am a Fullstack web developer who enjoys analyzing problems and sharing creative solutions to improve both
-          myself and those around me. <br />
-          <br />
-          I’ve always been drawn to creating cool stuff whether they are technical or artistic in nature. <br />
-          <br /> I like to tinker with Raspberry Pi or print cool 3D sculptures during my free time. I am also an avid
-          gamer who enjoys playing Starcraft 2, Dota 2, and Civilization series.
+          Javascript, Python, HTML5/CSS, React/Redux, NodeJS, SQL, Postgres, Express, MongoDB, Adobe Photoshop, GIt,
+          Github, Typescript, Java, Angular, NextJS, React Native, AWS
         </h5>
       </div>
     </div>
   )
 }
 
-export default About
+export default Skills
