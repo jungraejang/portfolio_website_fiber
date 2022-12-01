@@ -34,7 +34,7 @@ function VideoText(props) {
       crossOrigin: 'anonymous',
       loop: true,
       muted: true,
-      playsinline: true,
+      playsInline: true,
     })
   )
   useEffect(() => void video.play(), [video])
