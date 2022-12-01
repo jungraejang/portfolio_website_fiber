@@ -10,7 +10,26 @@ function Ready({ setReady }) {
 
 export default function Name() {
   const [ready, setReady] = useState(false)
+  const [windowSize, setWindowSize] = useState(getWindowSize())
+
+  function getWindowSize() {
+    const { innerWidth, innerHeight } = window
+    return { innerWidth, innerHeight }
+  }
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize())
+    }
+
+    window.addEventListener('resize', handleWindowResize)
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize)
+    }
+  }, [])
   useEffect(() => {}, [ready])
+
+  console.log('window', windowSize)
   return (
     <Canvas
       concurrent
@@ -20,7 +39,7 @@ export default function Name() {
       camera={{ position: [0, 0, 80], fov: 50 }}>
       <Suspense fallback={<Ready setReady={setReady} />}>
         <group position={[0, 0, 0]}>
-          <VideoText position={[0, 0, 0]} />
+          <VideoText position={[0, 0, 0]} windowSize={windowSize} />
         </group>
       </Suspense>
     </Canvas>
@@ -41,7 +60,12 @@ function VideoText(props) {
   useEffect(() => void video.play(), [video])
   return (
     <>
-      <Text font="/PassionOne-Bold.ttf" fontSize={25} letterSpacing={0} {...props}>
+      <Text
+        font="/PassionOne-Bold.ttf"
+        fontSize={props.windowSize.innerWidth <= 1000 ? Math.round(props.windowSize.innerWidth / 15.6) : 64}
+        letterSpacing={0}
+        overflowWrap={'normal'}
+        {...props}>
         Jung Rae Jang
         <meshBasicMaterial toneMNameed={false}>
           <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />

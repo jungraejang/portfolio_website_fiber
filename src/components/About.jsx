@@ -23,13 +23,8 @@ function About() {
           QUI SUIS-JE?
         </h1>
       </div>
-      {/* <div style={{ display: ' flex', flexDirection: 'row' }}>
-        <h6 style={{ color: '#3200FC' }} className="text-shadow">
-          Name:{' '}
-        </h6>
-        <h4 style={{ marginLeft: 20 }}>Jung Rae Jang</h4>
-      </div> */}
-      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'center' }}>
+
+      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 16, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
           I am a Fullstack web developer who enjoys analyzing problems and sharing creative solutions to improve both
           myself and those around me. <br />

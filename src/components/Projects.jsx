@@ -22,12 +22,7 @@ function Projects() {
           PROJECTS
         </h1>
       </div>
-      {/* <div style={{ display: ' flex', flexDirection: 'row' }}>
-        <h6 style={{ color: '#3200FC' }} className="text-shadow">
-          Name:{' '}
-        </h6>
-        <h4 style={{ marginLeft: 20 }}>Jung Rae Jang</h4>
-      </div> */}
+
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 24, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
           Citi Composition Tool (Maker-Checker)

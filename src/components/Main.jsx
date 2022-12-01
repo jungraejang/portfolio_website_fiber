@@ -15,11 +15,10 @@ function Main() {
 
   const handleScroll = e => {
     const target = e.target ? e.target : null
-    console.log('Current scroll position:', target.scrollTop)
+    // console.log('Current scroll position:', target.scrollTop)
     dispatch(setScrollPosition(target.scrollTop))
   }
 
-  console.log(scrollPosition)
   return (
     <div
       style={{

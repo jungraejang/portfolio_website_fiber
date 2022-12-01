@@ -45,7 +45,7 @@ function Model({ ready, scrollPosition }) {
           <mesh material={materials.Scene_Root} geometry={nodes.mesh_3.geometry} />
         </group>
         <group position={[100000, 120000, 2000]}>
-          {/* {ready && <PositionalAudio autoplay loop url="/zapsplat_icecream.mp3" distance={5} />} */}
+          {ready && <PositionalAudio autoplay loop url="/zapsplat_icecream.mp3" distance={5} />}
         </group>
         <mesh position={[250000, -200000, 50000]}>
           <sphereGeometry args={[30000, 32, 32]} />
