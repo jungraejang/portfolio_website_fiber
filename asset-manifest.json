@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.463e916b.css",
+    "main.js": "/static/js/main.e7e331b5.js",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Anton-Regular.ttf": "/static/media/Anton-Regular.170b842f9a8cd6150a0d.ttf",
+    "static/media/BigShouldersText-Regular.ttf": "/static/media/BigShouldersText-Regular.ecbcb7d66b75674e2114.ttf",
+    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "index.html": "/index.html",
+    "main.463e916b.css.map": "/static/css/main.463e916b.css.map",
+    "main.e7e331b5.js.map": "/static/js/main.e7e331b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.463e916b.css",
+    "static/js/main.e7e331b5.js"
+  ]
+}
