@@ -1,7 +1,6 @@
 import React from 'react'
-import Paper from '@mui/material/Paper'
 
-function About() {
+function Contact() {
   return (
     <div
       style={{
@@ -20,7 +19,7 @@ function About() {
       <div>
         {' '}
         <h1 className="font-face-bs dark-text" style={{ textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
-          QUI SUIS-JE?
+          CONTACT
         </h1>
       </div>
       {/* <div style={{ display: ' flex', flexDirection: 'row' }}>
@@ -29,18 +28,15 @@ function About() {
         </h6>
         <h4 style={{ marginLeft: 20 }}>Jung Rae Jang</h4>
       </div> */}
-      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 16, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          I am a Fullstack web developer who enjoys analyzing problems and sharing creative solutions to improve both
-          myself and those around me. <br />
-          <br />
-          I’ve always been drawn to creating cool stuff whether they are technical or artistic in nature. <br />
-          <br /> I like to tinker with Raspberry Pi or print cool 3D sculptures during my free time. I am also an avid
-          gamer who enjoys playing Starcraft 2, Dota 2, and Civilization series.
+          Github <br />
+          Email <br />
+          LinkedIn
         </h5>
       </div>
     </div>
   )
 }
 
-export default About
+export default Contact

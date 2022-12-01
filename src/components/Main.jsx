@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Provider, useDispatch, useSelector } from 'react-redux'
 import { selectScrollPosition, setScrollPosition } from '../slices/eventSlice'
 import About from './About'
+import Contact from './Contact'
 import Experience from './Experience'
 import Name from './Name'
 import Projects from './Projects'
@@ -40,6 +41,7 @@ function Main() {
       <Skills />
       <Projects />
       <Experience />
+      <Contact />
     </div>
   )
 }

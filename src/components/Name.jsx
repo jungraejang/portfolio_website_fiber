@@ -20,7 +20,7 @@ export default function Name() {
       camera={{ position: [0, 0, 80], fov: 50 }}>
       <Suspense fallback={<Ready setReady={setReady} />}>
         <group position={[0, 0, 0]}>
-          <VideoText position={[0, 0, -1]} />
+          <VideoText position={[0, 0, 0]} />
         </group>
       </Suspense>
     </Canvas>
@@ -34,16 +34,17 @@ function VideoText(props) {
       crossOrigin: 'anonymous',
       loop: true,
       muted: true,
+      //below is necessary to play video on ios
       playsInline: true,
     })
   )
   useEffect(() => void video.play(), [video])
   return (
     <>
-      <Text font="/PassionOne-Bold.ttf" fontSize={30} letterSpacing={0} pixelRatio={[1, 1]} {...props}>
+      <Text font="/PassionOne-Bold.ttf" fontSize={25} letterSpacing={0} {...props}>
         Jung Rae Jang
         <meshBasicMaterial toneMNameed={false}>
-          <videoTexture attach="map" pixelRatio={[1, 5]} args={[video]} encoding={THREE.sRGBEncoding} />
+          <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />
         </meshBasicMaterial>
       </Text>
     </>

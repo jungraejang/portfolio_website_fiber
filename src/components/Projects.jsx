@@ -14,10 +14,11 @@ function Projects() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
+        paddingBottom: '15vh',
       }}>
       <div>
         {' '}
-        <h1 className="font-face-bs " style={{ color: '#000', textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
+        <h1 className="font-face-bs dark-text " style={{ textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
           PROJECTS
         </h1>
       </div>

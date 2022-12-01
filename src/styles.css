@@ -116,3 +116,7 @@ a:hover {
  .text-shadow {
   text-shadow: 3px 2px 2px rgba(0,0,0,1);
  }
+
+ .dark-text {
+  color: #191D21
+ }

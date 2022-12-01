@@ -14,9 +14,9 @@ function Welcome() {
         alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingTop: 100,
+        paddingTop: 80,
       }}>
-      <div style={{ width: '100vw' }}>
+      <div style={{ width: '100vw', height: '20vh' }}>
         <Name />
       </div>
     </div>
