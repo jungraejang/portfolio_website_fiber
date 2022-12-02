@@ -15,7 +15,7 @@ function Welcome() {
         justifyContent: 'flex-start',
         alignSelf: 'center',
         paddingTop: 80,
-        paddingBottom: '5vh',
+        // paddingBottom: '5vh',
       }}>
       <div style={{ width: '100vw', height: '20vh' }}>
         <Name />

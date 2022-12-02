@@ -13,7 +13,7 @@ function ProfileImage() {
   return (
     <div
       style={{
-        height: '50vh',
+        height: '100vh',
         width: '100vw',
         fontSize: 30,
         display: 'flex',
@@ -24,9 +24,9 @@ function ProfileImage() {
         justifyContent: 'flex-start',
         alignSelf: 'center',
         paddingTop: 80,
-        paddingBottom: '55vh',
+        paddingBottom: '25vh',
       }}>
-      <div style={{ width: '100vw', height: '20vh' }}>
+      <div style={{ width: '100vw', height: '40vh' }}>
         <Canvas>
           <ambientLight />
           {/* <pointLight position={[10, 10, 10]} /> */}
@@ -51,11 +51,11 @@ function ImageBox({ scrollPosition }) {
     mesh.current.rotation.x = scrollPosition * -0.3
 
     mesh.current.position.x = scrollPosition * 0.2
-    mesh.current.position.z = scrollPosition * -0.2
+    mesh.current.position.z = scrollPosition * -0.4
   }, [scrollPosition])
   return (
     <Box ref={mesh}>
-      <boxGeometry args={[5, 5, 5, 5]} />
+      <boxGeometry args={[4, 4, 4, 4]} />
       <meshStandardMaterial map={colorMap} />
     </Box>
   )

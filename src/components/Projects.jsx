@@ -25,13 +25,27 @@ function Projects() {
 
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 24, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          Citi Composition Tool (Maker-Checker)
+          Citi Composition Tool (Citi Commercial Banking)
         </h5>
         <p style={{ fontSize: 12 }}>
           A tool used by business/banking associates to share documents amongst peers, managers, and clients with strict
           permission control and audit functionalities.
         </p>
+        <br />
+
         <p style={{ fontSize: 12 }}>Tech: React, CSS, Socket.IO, AWS, Firebase</p>
+      </div>
+      <br />
+      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <h5 style={{ fontSize: 24, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
+          Onboarding Portal Migration (Citi PB Onboarding Tech)
+        </h5>
+        <p style={{ fontSize: 12 }}>
+          Migration of Vaadin application to Angular. Built a proof -of-concept application using rules engine to handle
+          some of business logics in frontend to reduce the number of API calls to the server
+        </p>
+        <br />
+        <p style={{ fontSize: 12 }}>Tech: Angular, Vaadin, Sass, NodeJS </p>
       </div>
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 24, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
@@ -42,6 +56,8 @@ function Projects() {
           using AWS Translate. Built as part of Hackathon with idea of bridging language gap for non-English speaking
           clients
         </p>
+        <br />
+
         <p style={{ fontSize: 12 }}>Tech: React, CSS, Socket.IO, AWS</p>
       </div>
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
@@ -53,17 +69,9 @@ function Projects() {
           also view all transactions for audit purposes. Users can also set an initial investment amount upon signing
           up.
         </p>
+        <br />
+
         <p style={{ fontSize: 12 }}>Tech: React, Adobe Photoshop, Express, CSS, NodeJS, Material-UI, Chart-JS</p>
-      </div>
-      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-        <h5 style={{ fontSize: 24, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          Onboarding Portal Migration (Citi PB Onboarding Tech)
-        </h5>
-        <p style={{ fontSize: 12 }}>
-          Migration of Vaadin application to Angular. Built a proof -of-concept application using rules engine to handle
-          some of business logics in frontend to reduce the number of API calls to the server
-        </p>
-        <p style={{ fontSize: 12 }}>Tech: Angular, Vaadin, Sass, NodeJS </p>
       </div>
     </div>
   )
