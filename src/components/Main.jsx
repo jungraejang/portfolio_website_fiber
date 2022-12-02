@@ -5,6 +5,7 @@ import About from './About'
 import Contact from './Contact'
 import Experience from './Experience'
 import Name from './Name'
+import ProfileImage from './ProfileImage'
 import Projects from './Projects'
 import Skills from './Skills'
 import Welcome from './Welcome'
@@ -36,6 +37,7 @@ function Main() {
       }}
       onScroll={handleScroll}>
       <Welcome />
+      <ProfileImage />
       <About />
       <Skills />
       <Projects />

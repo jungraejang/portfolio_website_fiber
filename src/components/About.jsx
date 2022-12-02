@@ -1,5 +1,6 @@
 import React from 'react'
 import Paper from '@mui/material/Paper'
+import ProfileImage from './ProfileImage'
 
 function About() {
   return (
