@@ -52,6 +52,12 @@ body {
   background: linear-gradient(0deg, rgba(212,255,0,1) 15%, rgba(237,239,247,1) 79%);
 }
 
+p{
+  margin: 0; 
+  padding: 0;
+
+}
+
 
 
 .fullscreen {
@@ -118,5 +124,37 @@ a:hover {
  }
 
  .dark-text {
-  color: #191D21
+  color: #17202A;
  }
+
+ .about-page-text-bg {
+  /* background-color: #1F2123; */
+  background-color: rgba(31, 33, 35  , 0.45);;
+  padding: 0px 5px 0px 5px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+ }
+
+ .about-page-text-hl {
+  background-color: #fff;
+  color: #000;
+  box-shadow: rgba(23, 32, 42, 0.5) 1px 3px 3px 0px inset, rgba(0, 0, 0, 0.3) 0px 6px 18px -9px inset;
+  /* padding-left: 3px;
+  padding-right: 3px; */
+padding: 3px; 
+}
+
+ .about-page-text-p {
+  font-size: 13;
+  opacity: 1;
+  z-index: 3;
+  margin-top: 5;
+ }
+
+ .about-page-text-p-container {
+  margin-top: 10px;
+ }
+
+ 
+
+

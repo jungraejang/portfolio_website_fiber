@@ -1,5 +1,5 @@
 import React from 'react'
-
+import pdf from '../assets/Resume - Jung Rae Jang.pdf'
 function Contact() {
   return (
     <div
@@ -14,7 +14,7 @@ function Contact() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '15vh',
+        paddingBottom: '20vh',
       }}>
       <div>
         {' '}
@@ -25,9 +25,18 @@ function Contact() {
 
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
         <h5 style={{ fontSize: 16, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          Github <br />
-          Email <br />
-          LinkedIn
+          <a href="https://github.com/jungraejang" target="_blank" rel="noopener noreferrer">
+            Github
+          </a>{' '}
+          <br />
+          <a href="mailto:jungrae.jang@gmail.com">Email</a> <br />
+          <a href="https://www.linkedin.com/in/jung-rae-jang/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+          <br />
+          <a href={pdf} download>
+            Resume
+          </a>
         </h5>
       </div>
     </div>

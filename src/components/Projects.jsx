@@ -14,7 +14,7 @@ function Projects() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '15vh',
+        paddingBottom: '20vh',
       }}>
       <div>
         {' '}

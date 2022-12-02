@@ -39,7 +39,7 @@ function Skills() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '15vh',
+        paddingBottom: '20vh',
       }}>
       <div>
         {' '}
@@ -60,7 +60,7 @@ function Skills() {
         }}>
         {' '}
         {imgArr.map(el => {
-          return <img src={el} style={{ marginLeft: 5, marginTop: 5 }}></img>
+          return <img src={el} key={el + '_/key'} style={{ marginLeft: 5, marginTop: 5 }}></img>
         })}
       </div>
     </div>
