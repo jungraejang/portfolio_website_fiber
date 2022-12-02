@@ -18,7 +18,7 @@ function Experience() {
       }}>
       <div>
         {' '}
-        <h1 className="font-face-bs dark-text" style={{ textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
+        <h1 className="font-face-bs dark-text" style={{}}>
           EXPERIENCE
         </h1>
       </div>

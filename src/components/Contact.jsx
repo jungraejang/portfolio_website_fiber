@@ -18,12 +18,12 @@ function Contact() {
       }}>
       <div>
         {' '}
-        <h1 className="font-face-bs dark-text" style={{ textShadow: '2px 1px 0px rgba(255,255,255,1)' }}>
+        <h1 className="font-face-bs dark-text" style={{}}>
           CONTACT
         </h1>
       </div>
 
-      <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+      <div style={{ display: ' flex', flexDirection: 'row', flex: 1, flexWrap: 'wrap', alignItems: 'flex-start' }}>
         <a href="https://github.com/jungraejang" target="_blank" rel="noopener noreferrer">
           <img
             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"

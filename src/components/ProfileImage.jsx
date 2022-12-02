@@ -51,7 +51,7 @@ function ImageBox({ scrollPosition }) {
     mesh.current.rotation.x = scrollPosition * -0.3
 
     mesh.current.position.x = scrollPosition * 0.2
-    mesh.current.position.z = scrollPosition * -0.4
+    mesh.current.position.z = scrollPosition * -0.3
   }, [scrollPosition])
   return (
     <Box ref={mesh}>

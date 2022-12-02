@@ -20,7 +20,7 @@ function About() {
       }}>
       <div>
         {' '}
-        <h1 className="font-face-bs dark-text " style={{ textShadow: '2px 2px 0px rgba(255,255,255,1)', fontSize: 60 }}>
+        <h1 className="font-face-bs dark-text " style={{ fontSize: 60 }}>
           QUI SUIS-JE?
         </h1>
       </div>
