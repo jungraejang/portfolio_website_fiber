@@ -24,7 +24,7 @@ function ProfileImage() {
         justifyContent: 'flex-start',
         alignSelf: 'center',
         paddingTop: 80,
-        paddingBottom: '15vh',
+        paddingBottom: '55vh',
       }}>
       <div style={{ width: '100vw', height: '20vh' }}>
         <Canvas>
