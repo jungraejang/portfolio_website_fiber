@@ -29,7 +29,7 @@ export default function Name() {
   }, [])
   useEffect(() => {}, [ready])
 
-  console.log('window', windowSize)
+  // console.log('window', windowSize)
   return (
     <Canvas
       concurrent

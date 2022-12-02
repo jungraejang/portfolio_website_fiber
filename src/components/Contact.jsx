@@ -24,20 +24,24 @@ function Contact() {
       </div>
 
       <div style={{ display: ' flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-        <h5 style={{ fontSize: 16, opacity: 1, zIndex: 3 }} className="font-face-ro text-shadow">
-          <a href="https://github.com/jungraejang" target="_blank" rel="noopener noreferrer">
-            Github
-          </a>{' '}
-          <br />
-          <a href="mailto:jungrae.jang@gmail.com">Email</a> <br />
-          <a href="https://www.linkedin.com/in/jung-rae-jang/" target="_blank" rel="noopener noreferrer">
-            LinkedIn
-          </a>
-          <br />
-          <a href={pdf} download>
-            Resume
-          </a>
-        </h5>
+        <a href="https://github.com/jungraejang" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+            alt=""></img>
+        </a>
+        <a href="mailto:jungrae.jang@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"
+            alt=""></img>
+        </a>
+        <a href="https://www.linkedin.com/in/jung-rae-jang/" target="_blank" rel="noopener noreferrer">
+          <img
+            src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"
+            alt=""></img>
+        </a>
+        <a href={pdf} download>
+          <img src="https://img.shields.io/badge/pdf-PDF-red?style=for-the-badge" alt=""></img>
+        </a>
       </div>
     </div>
   )

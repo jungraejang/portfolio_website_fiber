@@ -29,7 +29,6 @@ function City({ ready }) {
 function Model({ ready, scrollPosition }) {
   const group = useRef()
   const { nodes, materials } = useGLTF('/scene-draco.glb')
-  console.log('ref', group, nodes)
   useFrame(() => (group.current.rotation.y += 0.0005))
   useEffect(() => {
     group.current.rotation.y = scrollPosition * 0.0013
