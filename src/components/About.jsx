@@ -1,12 +1,13 @@
 import React from 'react'
 import Paper from '@mui/material/Paper'
 import ProfileImage from './ProfileImage'
+import profileImg from '../assets/profile-photo.png'
 
 function About() {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         width: '80vw',
         // fontSize: 30,
         display: 'flex',
@@ -16,13 +17,17 @@ function About() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '20vh',
+        paddingBottom: '25vh',
       }}>
       <div>
         {' '}
         <h1 className="font-face-bs dark-text " style={{ fontSize: 60 }}>
           QUI SUIS-JE?
         </h1>
+      </div>
+
+      <div>
+        <img src={profileImg} width={150} height={150}></img>
       </div>
 
       <div

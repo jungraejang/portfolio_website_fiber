@@ -39,7 +39,7 @@ function Skills() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '20vh',
+        paddingBottom: '25vh',
       }}>
       <div>
         {' '}

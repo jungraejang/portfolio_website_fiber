@@ -126,6 +126,7 @@ a:hover {
  .dark-text {
   color: #17202A;
   text-shadow: 2px 2px 0px rgba(212, 255, 2,1);
+  padding-bottom: 5vh;
  }
 
  .about-page-text-bg {

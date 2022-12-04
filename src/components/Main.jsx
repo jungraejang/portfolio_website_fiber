@@ -37,7 +37,7 @@ function Main() {
       }}
       onScroll={handleScroll}>
       <Welcome />
-      <ProfileImage />
+      {/* <ProfileImage /> */}
       <About />
       <Skills />
       <Projects />

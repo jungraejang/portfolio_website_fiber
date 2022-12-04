@@ -43,6 +43,17 @@ let projects = [
     description:
       'A mock stock trading app where users can purchase stocks based on most up-to-date prices, view portfolios, and also view all transactions for audit purposes. Users can also set an initial investment amount upon signing',
   },
+
+  {
+    name: '3D ISS Tracker',
+    tech: 'React/Redux, Three JS, Netlify, whereisissat API',
+    github: 'https://github.com/jungraejang/iss-tracker-v2',
+    imageLink: 'https://i.ibb.co/44z0p4d/2022-12-04-141056.png',
+    deployLink: 'https://gilded-fairy-bfe29e.netlify.app/',
+    bgcolor: '#b8c305',
+    description:
+      'An ISS tracking app which displays location of ISS on interactive 3D globe. Built using React, Redux and Three js. Data is from whereisissat API',
+  },
 ]
 
 function Projects() {
@@ -59,7 +70,7 @@ function Projects() {
         // alignItems: 'flex-start',
         justifyContent: 'flex-start',
         alignSelf: 'center',
-        paddingBottom: '20vh',
+        paddingBottom: '25vh',
       }}>
       <div>
         {' '}

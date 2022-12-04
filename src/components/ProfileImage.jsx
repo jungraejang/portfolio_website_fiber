@@ -40,18 +40,18 @@ function ProfileImage() {
 
 function ImageBox({ scrollPosition }) {
   const mesh = useRef()
-  const colorMap = useLoader(TextureLoader, '/8bit_portrait.png')
+  const colorMap = useLoader(TextureLoader, '/profile-photo.png')
   useFrame((state, delta) => {
     // mesh.current.rotation.x += 0.01
     // mesh.current.rotation.y += 0.01
   })
   useEffect(() => {
-    mesh.current.rotation.z = scrollPosition * 0.3
-    // mesh.current.rotation.y = scrollPosition * 0.0013
-    mesh.current.rotation.x = scrollPosition * -0.3
+    mesh.current.rotation.z = scrollPosition * 0.003
+    // mesh.current.rotation.y = scrollPosition * 0.3
+    mesh.current.rotation.x = scrollPosition * -0.003
 
-    mesh.current.position.x = scrollPosition * 0.2
-    mesh.current.position.z = scrollPosition * -0.3
+    // mesh.current.position.x = scrollPosition * 0.2
+    mesh.current.position.z = scrollPosition * -0.03
   }, [scrollPosition])
   return (
     <Box ref={mesh}>
